@@ -1,9 +1,9 @@
 # Describe VMs
 MACHINES = {
   # VM name "kernel update"
-  :"kernel-update" => {
+  :"kernel-upgraded" => {
               # VM box
-              :box_name => "centos/7",
+              :box_name => "eXteZone/centos7-5x",
               # VM CPU count
               :cpus => 2,
               # VM RAM size (Mb)
